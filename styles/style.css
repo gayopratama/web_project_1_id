@@ -352,8 +352,7 @@
   padding-left: 0;
 }
 
-/* here I make new containaer for social media icons & link because its easier for me to arrange them, and I've tried flex-wrap and/ or flex-direction it didnt works, so I using list item to make social icons and links linked*/
-.footer__columns_content_social_list {
+.footer__columns_content_social {
   list-style-type: none;
   padding-left: 0;
 }
