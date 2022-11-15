@@ -17,6 +17,8 @@
   max-height: 756px;
   display: flex;
   position: relative;
+  background-color: #f2f2f2;
+  z-index: -1;
 }
 
 .logo {
@@ -181,6 +183,7 @@
   background-image: url("../images/feynman.png");
   background-repeat: no-repeat;
   background-position: left bottom;
+  background-color: #f2f2f2;
 }
 
 .feynman__title {
@@ -225,7 +228,7 @@
 /*              5. Blok Kaufman                   */
 
 .kaufman {
-  background-color: #000000;
+  background-color: #1f1f1f;
   overflow: hidden;
   position: relative;
   padding-top: 90px;
@@ -257,7 +260,7 @@
 }
 
 .table_theme_dark {
-  margin: 60px auto 0 auto;
+  margin: 0 auto 0 auto;
   width: 1100px;
   display: flex;
   flex-wrap: wrap;
@@ -291,8 +294,7 @@
   height: 636px;
   position: absolute;
   right: -124px;
-  top: 200px;
-  /* sorry, I add this to make proposional position */
+  top: 0;
   z-index: 0;
   /* here I using z-index 0 because when I try -1 the triangle goes disappear (behind the background) */
 }
@@ -329,7 +331,7 @@
 
 .footer__author {
   line-height: 25px;
-  font-size: 28px;
+  font-size: 18px;
   font-weight: normal;
   position: absolute;
   bottom: 18px;
