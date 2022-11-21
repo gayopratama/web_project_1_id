@@ -70,6 +70,11 @@
   bottom: 20px;
   text-decoration: none;
   color: #2f80ed;
+  
+}
+
+.header-link:hover {
+  opacity: 0.5;
 }
 
 .header__main-illustration {
@@ -227,6 +232,10 @@
   top: 50%;
   text-decoration: none;
   color: #2f80ed;
+}
+
+.feynman__link:hover {
+  opacity: 0.5;
 }
 
 .feynman__background-image {
@@ -450,7 +459,6 @@
 .khan {
   width: 80%;
   margin: 100px auto 0 auto;
-
   padding-left: 100px;
 }
 
@@ -494,9 +502,11 @@
 }
 
 .khan__book-pic {
-  width: 608px;
-  height: 620px;
-  margin-right: 42px;
+  width: 620px;
+  height: 608px;
+  margin-right: 48px;
+  background-image: url(../images/khan-book-2.png);
+  background-size: cover;
 }
 
 .khan__buy-link {
@@ -505,6 +515,10 @@
   font-weight: normal;
   text-decoration: none;
   color: #2f80ed;
+}
+
+.khan__buy-link:hover {
+  opacity: 0.5;
 }
 
 
@@ -524,4 +538,8 @@
 .resources__logo {
 width: 270px;
 height: 38px;
+}
+
+.resources__logo:hover {
+  opacity: 0.5;
 }
