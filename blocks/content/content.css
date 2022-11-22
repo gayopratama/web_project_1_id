@@ -206,7 +206,7 @@
     margin-top: 20px;
   }
   
-  .kaufman_triangle {
+  .kaufman__triangle {
     width: 660px;
     height: 636px;
     position: absolute;
@@ -215,7 +215,7 @@
     z-index: 0;
   }
   
-  .kaufman_triangle-rotation {
+  .kaufman__triangle-rotation {
     animation: rotation 20s linear infinite;
   }
   
