@@ -5,7 +5,7 @@
     display: flex;
     position: relative;
     background-color: #f2f2f2;
-    z-index: -1;
+    z-index: 0;
     overflow: hidden;
   }
   
@@ -55,7 +55,7 @@
     
   }
   
-  .header-link:hover {
+  .header__link:hover {
     opacity: 0.5;
   }
   
