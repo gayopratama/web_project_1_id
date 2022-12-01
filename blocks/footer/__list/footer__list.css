@@ -1,0 +1,9 @@
+.footer-list {
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    list-style-type: none;
+    align-items: left;
+    padding-left: 0;
+  }

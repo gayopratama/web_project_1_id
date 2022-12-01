@@ -1,0 +1,6 @@
+.footer__columns_content_about {
+  margin-top: 0;
+  flex-direction: column;
+  width: auto;
+  padding-left: 500px;
+}
